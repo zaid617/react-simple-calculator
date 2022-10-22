@@ -33,7 +33,7 @@ function App() {
     <div className="App">
         <div className="container">
         <h1>Calculator</h1>
-        <input type="number" className="input" onChange={(e)=>{setResult(e.target.value)}} value={result}/>
+        <input type="text" className="input" onChange={(e)=>{setResult(e.target.value)}} value={result}/>
         <div className="cal">
             <button className="button color-btn2" onClick={clearBox}>AC</button>
             <button className="button color-btn" onClick={backSpace}>C</button>
